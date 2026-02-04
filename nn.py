@@ -16,3 +16,5 @@ model=nn.Sequential(
     nn.Linear(4,1)
 )
 
+X=torch.tensor([[0.,0.],[0.,1.],[1.,0.],[1.,1.]])  # input
+y=torch.tensor([[0.],[1.],[1.],[0.]])   # contains expected output
